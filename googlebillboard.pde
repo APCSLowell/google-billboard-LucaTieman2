@@ -5,7 +5,6 @@ public void setup()
     String digits = e.substring(i, i+10);
     double dNum = Double.parseDouble(digits);
     if (isPrime(dNum) == true) {
-      System.out.println(dNum + " is prime");
       break;
     }
   }
